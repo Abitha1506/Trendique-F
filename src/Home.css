@@ -1,0 +1,60 @@
+.logo{
+    padding: 20px;
+    margin-left: 35px ;
+
+  }
+
+  .logo1{
+    padding: 20px;
+    margin-left: 30px ;
+
+  }
+  
+  h2{
+    color: crimson;
+    text-align: center;
+  }
+  
+  hr{
+    margin: 0 50px;
+  }
+  
+  .button{
+    margin: 20px;
+  }
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .search input {
+    width: 90%;
+  }
+
+  .name h1 {
+    font-size: 32px;
+  }
+
+  a {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+  .logo{
+    width: 100%;
+    margin-left: 0;
+  }
+  .logo1{
+    width: 100%;
+    margin-left: 0;
+  }
+}

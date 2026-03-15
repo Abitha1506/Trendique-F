@@ -1,0 +1,98 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 10px;
+    margin-top: 100px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  p{
+    color: white;
+  }
+  
+  .footer-left, .footer-middle, .footer-right {
+    width: 30%;
+  }
+  
+  footer h2, h3 {
+    color: crimson;
+  }
+  
+  .footer-left p, .footer-right p {
+    font-size: 14px;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    width: 70%;
+  }
+  
+  .newsletter button {
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .footer-middle ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-middle ul li {
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: crimson;
+  }
+  
+  .footer-right a {
+    text-decoration: none;
+    color: white;
+  }
+    
+  .footer-right a:hover{
+    color: crimson;
+  }
+  
+  h2{
+    margin-right: 30px;
+  } 
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .newsletter input[type="email"] {
+      width: 90%;
+    }
+  }
+  
+  
