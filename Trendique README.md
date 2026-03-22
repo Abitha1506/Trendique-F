@@ -55,12 +55,6 @@ Backend:
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots later)
-
----
-
 ## 👩‍💻 Author
 
 Abitha L  
