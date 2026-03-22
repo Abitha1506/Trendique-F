@@ -48,10 +48,10 @@ Trendique-F/
 ## 🌐 Live Demo
 
 Frontend:
-(Add your Vercel link here)
+(https://trendique.vercel.app/)
 
 Backend:
-(Add your Render link here)
+(https://trendique-b.onrender.com)
 
 ---
 
